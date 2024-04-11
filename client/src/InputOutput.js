@@ -21,7 +21,7 @@ function InputOutput() {
     
 
     
-    try{const response = await axios.post('http://localhost:5000/ask',{ques:inputTitle});
+    try{const response = await axios.post('https://langai31.onrender.com/ask',{ques:inputTitle});
    
     
     // setOutputData(response.data);
