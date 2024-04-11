@@ -4,14 +4,12 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function InputOutput() {
-  const [inputData, setInputData] = useState('');
+ 
   const [inputTitle,setInputTitle]=useState('');
   
   const [output,setOutput]=useState('');
 
-  const handleInputChange = (event) => {
-    setInputData(event.target.value);
-  };
+ 
   const handleTitleChange = (event) => {
     setInputTitle(event.target.value);
   };
