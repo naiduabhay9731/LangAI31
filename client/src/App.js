@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+
+import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
 import './App.css';
 import InputOutput from './InputOutput';
 import Ask from './Ask';
