@@ -3,10 +3,8 @@ import "./Ask.css";
 import axios from "axios";
 
 const QuestionAnswer = () => {
-  const [inputQues, setQuestion] = useState("");
-  const [answer, setAnswer] = useState("");
-  const [outputData, setOutputData] = useState("");
-  const [loading, setLoading] = useState(false);
+  
+  
   const [file, setFile] = useState(null);
   const [data, setData] = useState("");
   const [data2, setData2] = useState("");
@@ -48,8 +46,8 @@ const QuestionAnswer = () => {
         textData: data,
       });
       console.log(response);
-      setOutputData(response.data);
-      setLoading(false);
+      
+      
       if (response.status === 200) {
         window.location.href = '/ask';
       } else {
